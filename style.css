@@ -16,12 +16,10 @@ body {
 }
 #main {
   height: 90vh;
-  width: 90%;
+  width: 80%;
   border-radius: 15px;
 }
 #panel {
-  overflow: hidden;
-  height: 90vh;
   background-color: #fff;
   border-radius: 15px;
 }
@@ -34,6 +32,7 @@ body {
   height: 100px;
   width: 100%;
   background-color: rgb(221, 182, 131);
+  border-radius: 10px 10px 0 0;
 }
 .elem {
   display: flex;
@@ -55,10 +54,10 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 1rem;
+  gap: 2rem;
   flex-wrap: wrap;
   padding: 1rem;
-  height: calc(100vh - 100px);
+  height: auto;
 }
 .bubble {
   width: 50px;
@@ -89,6 +88,9 @@ body {
 @media screen and (max-width: 1048px) {
   .box {
     width: 20%;
+  }
+  #pbtm {
+    gap: 1rem;
   }
 }
 @media screen and (max-width: 748px) {
